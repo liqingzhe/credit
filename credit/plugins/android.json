@@ -1,0 +1,62 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-qqsdk": {
+            "QQ_APP_ID": "1106000313",
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-wechat": {
+            "WECHATAPPID": "wx92d85e33893d047e",
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-appversion": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-clipboard-x": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "com.tiltshiftfocus.cordova.plugin.clearCache": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        },
+        "cordova-plugin-3dtouch": {
+            "PACKAGE_NAME": "com.makepolo.credit"
+        }
+    },
+    "dependent_plugins": {}
+}

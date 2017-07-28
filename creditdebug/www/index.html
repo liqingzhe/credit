@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="mqq-bottom-ad" content="no"/>
+    <link rel="dns-prefetch" href="//jic.makepolo.net">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>信贷派</title>
+    <meta name="description" content="信贷派app是一款面向信贷经理的专业移动获客平台，为信贷经理提供风控筛选、智能匹配、实时抢单等服务。通过信贷派，信贷经理可以足不出户获得各类意向贷款客户订单，申请认证成为信贷派的会员，获得抢单、淘单、精选推荐权限，帮助信贷经理更好提升办公效率，轻松找到目标客户，降低获客成本。" />
+    <meta name="keywords" content="信贷经理、信贷派、抢单、淘单、微店、贷款产品、信贷、获客、实名认证、信贷员、信贷助手、接单、信用贷款、抵押贷款、出借服务、担保服务、中介服务、房屋抵押、车辆抵押、信用卡、特殊抵押、个人征信、公积金、社保、贷款助手、信贷经理平台、移动信贷、网络贷款" />
+    <link rel="shortcut icon" href="http://jic.makepolo.net/mx/img/credit/favicon.ico"/>
+    <link href="http://jic.makepolo.net/mx/css/credit.css?v=20170418" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        #failTips{margin:60% 0 0;width:100%;text-align:center;line-height:3em;}
+        #failTips input{line-height:2em;padding:0 10px;}
+    </style>
+    <!-- <script src="http://injection/www/cordova.js" type="text/javascript" charset="UTF-8"></script> -->
+</head>
+<body>
+<div style="display:none;"><img src="http://jic.makepolo.net/mx/img/credit/logo.png"/></div>
+<div class="header"></div>
+<div class="body"><div id="failTips" style="display:none">网络异常，请稍后重试<br/><input type="button" value="重新加载" onclick="document.location.reload();" /></div></div>
+<div class="footer"></div>
+<script type="text/javascript">
+(function(){MX=window.MX||{};var d=[],h=function(a,c){for(var b in c)a.setAttribute(b,c[b])};MX.load=function(a){var c="function"==typeof a;if(!a&&d){a=0;for(c=d.length;a<c;a++)MX.load(d[a]);d=null}else if(a.delay&&d)delete a.delay,d.push(a);else if(c&&a.delay)a();else if(c)a.delay=1,d.push(a);else{var b=(c=a.js)?".js":".css",e=-1==location.search.indexOf("jsDebug"),f=a.js||a.css;-1==f.indexOf("http://")?(f=(a.path||"http://jic.makepolo.net/mx/")+((c?"js/":"css/")+f),b=f+(a.version?"_"+a.version:"")+b+(a.v?"?v="+a.v:""),a.version=a.v):b=f;e||(e=b.split("#"),b=e[0],b=b+(-1!=b.indexOf("?")?"&":"?")+"r="+Math.random(),e[1]&&(b=b+"#"+e[1]));if(c){var c=b,i=a.success,g=document.createElement("script");g.onload=function(){i&&i();g=null};h(g,{type:"text/javascript",src:c,async:"true"});document.getElementsByTagName("head")[0].appendChild(g)}else{var c=b,j=a.success,a=document.createElement("link");h(a,{rel:"stylesheet"});document.getElementsByTagName("head")[0].appendChild(a);h(a,{href:c});j&&(a.onload=function(){j()})}}}})();
+MX.load({
+    js : 'page/credit/index.min',
+    v : '20170418',
+    success : function(){
+        //MX.jsDebug = 1;
+        seajs.use('page/credit');
+    }
+});
+
+</script>
+<script type="text/javascript">
+window.onload = function(){
+    if(!window.seajs){
+        document.getElementById('failTips').style.display = '';
+    }
+};
+</script>
+<script type="text/javascript" src="cordova.js"></script>
+<!--<script type="text/javascript" src="http://weinre.qq.com/target/target-script-min.js#xhlv"></script>-->
+</body>
+</html>

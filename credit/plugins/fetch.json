@@ -1,0 +1,135 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-camera"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-file": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-file"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-file-transfer": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-file-transfer"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-media-capture": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-media-capture"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar@2.2.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-qqsdk": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-qqsdk"
+        },
+        "is_top_level": true,
+        "variables": {
+            "QQ_APP_ID": "1106000313"
+        }
+    },
+    "cordova-plugin-wechat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-wechat"
+        },
+        "is_top_level": true,
+        "variables": {
+            "WECHATAPPID": "wx92d85e33893d047e"
+        }
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen@4.0.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@1.7.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-appversion": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-appversion"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-contacts": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/apache/cordova-plugin-contacts.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-clipboard-x": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-clipboard-x"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.tiltshiftfocus.cordova.plugin.clearCache": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-cache"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-3dtouch": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-3dtouch"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
