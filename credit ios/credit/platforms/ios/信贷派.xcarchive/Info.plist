@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/信贷派.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.makepolo.credit</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.1.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.1.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Distribution: Beijing Soudoushi Information Technology Co., Ltd. (57BFUPB8Z7)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2017-04-28T17:29:17Z</date>
+	<key>DefaultToolchainInfo</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Xcode 7.3.1 Default</string>
+		<key>Identifier</key>
+		<string>com.apple.dt.toolchain.XcodeDefault</string>
+	</dict>
+	<key>Name</key>
+	<string>信贷派</string>
+	<key>SchemeName</key>
+	<string>信贷派</string>
+</dict>
+</plist>

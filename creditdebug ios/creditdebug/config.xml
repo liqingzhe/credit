@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.makepolo.credit" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>信贷派</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <access origin="*" />
+    <access origin="http://*/*" />
+    <access origin="https://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icon/android/mipmap-ldpi/ic_launcher.png" />
+        <icon density="mdpi" src="res/icon/android/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="res/icon/android/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="res/icon/android/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="res/icon/android/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="res/icon/android/mipmap-xxxhdpi/ic_launcher.png" />
+        <!-- you can use any density that exists in the Android project -->
+        <!-- <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi" /> 注意这里的density分别指的是不同手机的分辨率，不同分辨率的手机采用的而logo大小是不一样的 -->
+        <!-- 以下是欢迎页面，可根据需要进行添加 -->
+        <splash density="land-hdpi" src="res/screen/android/splash-land-hdpi.png" />
+        <splash density="land-ldpi" src="res/screen/android/splash-land-ldpi.png" />
+        <splash density="land-mdpi" src="res/screen/android/splash-land-mdpi.png" />
+        <splash density="land-xhdpi" src="res/screen/android/splash-land-xhdpi.png" />
+        <splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png" />
+        <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png" />
+        <splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png" />
+        <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <!-- images are determined by width and height. The following are supported -->
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  -->
+        <icon src="res/icon/ios/icon-60@3x.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/icon/ios/icon-60.png" width="60" height="60" />
+        <icon src="res/icon/ios/icon-60@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="res/icon/ios/icon-76.png" width="76" height="76" />
+        <icon src="res/icon/ios/icon-76@2x.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon -->
+        <icon src="res/icon/ios/icon-40.png" width="40" height="40" />
+        <icon src="res/icon/ios/icon-40@2x.png" width="80" height="80" />
+        <!-- iPhone / iPod Touch -->
+        <icon src="res/icon/ios/icon-57.png" width="57" height="57" />
+        <icon src="res/icon/ios/icon-57@2x.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="res/icon/ios/icon-72.png" width="72" height="72" />
+        <icon src="res/icon/ios/icon-72@2x.png" width="144" height="144" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="res/icon/ios/icon-29.png" width="29" height="29" />
+        <icon src="res/icon/ios/icon-29@2x.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="res/icon/ios/icon-50.png" width="50" height="50" />
+        <icon src="res/icon/ios/icon-50@2x.png" width="100" height="100" />
+        <!-- 以下是欢迎页面，可根据需要进行添加 -->
+        <splash src="res/screen/ios/320-480.png" width="320" height="480" />
+        <splash src="res/screen/ios/640-960.png" width="640" height="960" />
+        <splash src="res/screen/ios/768-1024.png" width="768" height="1024" />
+        <splash src="res/screen/ios/1536-2048.png" width="1536" height="2048" />
+        <splash src="res/screen/ios/1024-768.png" width="1024" height="768" />
+        <splash src="res/screen/ios/2048-1536.png" width="2048" height="1536" />
+        <splash src="res/screen/ios/640-1136.png" width="640" height="1136" />
+        <splash src="res/screen/ios/750-1334.png" width="750" height="1334" />
+        <splash src="res/screen/ios/1242-2208.png" width="1242" height="2208" />
+        <splash src="res/screen/ios/2208-1242.png" width="2208" height="1242" />
+    </platform>
+    <platform name="windows">
+        <!-- images are determined by width and height. The following are supported -->
+        <splash src="res/screen/windows/splashscreen.png" width="620" height="300" />
+        <splash src="res/screen/windows/splashscreenphone.png" width="1152" height="1920" />
+    </platform>
+    <platform name="blackberry10">
+        <!-- Add a rim:splash element for each resolution and locale you wish -->
+        <!-- http://developer.blackberry.com/html5/documentation/rim_splash_element.html -->
+        <rim:splash src="res/screen/blackberry/splashscreen.png" />
+    </platform>
+    <preference name="SplashScreenDelay" value="5000" />
+    <!-- //这个值表示这个图标显示10000毫秒后消失。 -->
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <!-- 设置为true的话，那么图片会适应手机分辨率，不会出现拉伸情况。 -->
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="WebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="UIWebViewBounce" value="false" />!-- 去除loading -->
+    
+</widget>
